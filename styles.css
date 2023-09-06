@@ -92,6 +92,14 @@
     line-height: 26px;
     /* margin:0  auto; */
   }
+  .path {
+    width: 56px;
+    height: 140px;
+    display: flex;
+    align-self: center;
+    /* padding-top: 20px; */
+    margin: 0px auto;
+  }
 
   section {
     display: grid;
@@ -163,7 +171,7 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
-    width: 100%;
+    width: auto;
     height: 100%;
     overflow: hidden;
     /* margin: auto; */
@@ -227,212 +235,6 @@
   }
 }
 /* mobile style ends  */
-
-@media screen and (min-width: 678px) {
-  .logo {
-    width: 119px;
-    height: 28px;
-    margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  .main-header {
-    display: none;
-  }
-
-  .tablet-header {
-    padding: 20px;
-    display: flex;
-  }
-  .tablet-header-text div {
-    /* margin: 0 auto; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .tablet-header-text h1 {
-    width: 339px;
-    color: #28283d;
-    margin: auto;
-    font-family: Red Hat Display;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 48px;
-  }
-  .tablet-header-text h4 {
-    width: 457px;
-    color: #87879d;
-    margin: auto;
-    font-family: Red Hat Display;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-  }
-  .download {
-    margin: 10px;
-    border-radius: 29px;
-    background: #4d96a9;
-    width: 133px;
-    height: 38px;
-    padding: 2px;
-    border: none;
-    color: #fff;
-    font-family: Red Hat Display;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 26px;
-    /* margin: 0 auto */
-  }
-
-  .info-button {
-    margin: 10px;
-    border-radius: 29px;
-    background: #855fb1;
-    width: 123px;
-    height: 38px;
-    padding: 2px;
-    border: none;
-    color: #fff;
-    font-family: Red Hat Display;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 26px;
-    /* margin:0  auto; */
-  }
-
-  section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-  }
-
-  section div {
-    border-radius: 5px;
-    margin-left: 20px;
-    width: 150px;
-    height: 150px;
-  }
-
-  section div img {
-    border-radius: 5px;
-    padding-left: 0px !important;
-    width: 100%;
-    height: 100%;
-  }
-
-  .section-text h4 {
-    color: #4d96a9;
-    font-family: Red Hat Display;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 26px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    text-align: center;
-  }
-  .section-text h2 {
-    width: 445px;
-    color: #28283d;
-    text-align: center;
-    font-family: Red Hat Display;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 44px;
-    margin: auto;
-  }
-
-  .section-text h5 {
-    width: 540px;
-    padding: 50px;
-    color: #87879d;
-    text-align: center;
-    font-family: Red Hat Display;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-    margin: auto;
-  }
-
-  footer {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    padding-top: 70px;
-    padding-bottom: 30px;
-    background: url("image-footer.jpg") rgb(77, 150, 168);
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: soft-light;
-    width: 100%;
-    height: 100%;
-    /* margin: auto; */
-  }
-  footer h1 {
-    width: 457px;
-    font-family: Red Hat Display;
-    font-size: 40px;
-    color: #fafafa;
-    font-weight: 900;
-    line-height: 44px;
-    letter-spacing: 0px;
-    text-align: center;
-    margin: auto;
-  }
-  footer h4 {
-    width: 573px;
-    color: #fafafa;
-    font-family: Red Hat Display;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: center;
-    padding: 20px;
-    /* margin: auto; */
-  }
-
-  .footer-button {
-    /* margin-top: 20px; */
-    border-radius: 29px;
-    background: #855fb1;
-    width: 133px;
-    height: 38px;
-    /* padding: 2px; */
-    border: none;
-    color: #fff;
-    font-family: Red Hat Display;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 26px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
-  .download span {
-    padding-left: 5px;
-  }
-  .download span:last-child {
-    color: #8fe3f9;
-  }
-
-  span {
-    padding-left: 5px;
-  }
-  span:last-child {
-    color: #d9b8ff;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .logo {
     width: 119px;
@@ -519,6 +321,14 @@
     line-height: 26px;
     /* margin:0  auto; */
   }
+  .path {
+    width: 56px;
+    height: 140px;
+    display: flex;
+    align-self: center;
+    /* padding-top: 20px; */
+    margin: 0px auto;
+  }
 
   section {
     display: flex;
@@ -584,7 +394,7 @@
     background-size: cover;
     background-blend-mode: soft-light;
     background-position: center;
-    width: 100%;
+    width: auto;
     height: 100%;
     /* margin: auto; */
   }
@@ -720,6 +530,15 @@
     line-height: 26px;
   }
 
+  .path {
+    width: 56px;
+    height: 140px;
+    display: flex;
+    align-self: center;
+    /* padding-top: 20px; */
+    margin: 0px auto;
+  }
+
   section {
     display: flex;
     justify-content: center;
@@ -787,7 +606,7 @@
     background-position: center;
     background-blend-mode: soft-light;
     width: 100%;
-    height: 100px;
+    height: 100%;
   }
   footer h1 {
     width: 350px;
@@ -918,6 +737,14 @@
   .info-button:hover {
     background-color: #b18bdd;
   }
+  .path {
+    width: 56px;
+    height: 140px;
+    display: flex;
+    align-self: center;
+    /* padding-top: 20px; */
+    margin: 0px auto;
+  }
 
   section {
     display: flex;
@@ -1008,7 +835,7 @@
   }
 
   .footer-button {
-    margin-top: 20px;
+    margin-top: 50px;
     border-radius: 29px;
     background: #855fb1;
     width: 133px;
