@@ -57,6 +57,7 @@
     font-weight: 500;
     line-height: 26px;
     padding: 2px;
+    margin-top: 20px;
     text-align: center;
   }
   .download {
@@ -73,6 +74,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 26px;
+    margin-top: 20px;
     /* margin: 0 auto */
   }
 
@@ -90,6 +92,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 26px;
+    margin-top: 20px;
     /* margin:0  auto; */
   }
   .path {
@@ -281,6 +284,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 26px;
+    margin-top: 20px;
   }
   .download {
     margin: 10px;
@@ -296,6 +300,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 26px;
+    margin-top: 20px;
     /* margin: 0 auto */
   }
   .download span {
@@ -319,6 +324,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 26px;
+    margin-top: 20px;
     /* margin:0  auto; */
   }
   .path {
@@ -491,6 +497,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
+    margin-top: 20px;
     line-height: 26px; /* 144.444% */
   }
   .download {
@@ -507,6 +514,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 26px;
+    margin-top: 20px;
   }
   .download span {
     padding-left: 5px;
@@ -529,6 +537,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 26px;
+    margin-top: 20px;
   }
 
   .path {
@@ -673,9 +682,16 @@
   .main-header img {
     width: 350px;
   }
+  .left-img {
+    margin-left: -190px;
+  }
+
+  .right-img {
+    margin-right: -190px;
+  }
   .header-text {
     padding: 70px;
-    text-align: center;
+    /* text-align: center; */
   }
   .header-text h1 {
     color: #28283d;
@@ -685,6 +701,8 @@
     font-style: normal;
     font-weight: 900;
     line-height: 64px;
+    width: 445px;
+    margin: 0 auto;
   }
   .header-text h4 {
     color: #87879d;
@@ -693,14 +711,16 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
+    margin-top: 20px;
+    width: 540px;
     line-height: 26px; /* 144.444% */
   }
   .download {
     margin-top: 20px;
     border-radius: 29px;
     background: #4d96a9;
-    width: 133px;
-    height: 38px;
+    width: 193px;
+    height: 58px;
     padding: 2px;
     border: none;
     color: #fff;
@@ -709,9 +729,11 @@
     font-style: normal;
     font-weight: 900;
     line-height: 26px;
+    margin-top: 20px;
   }
   .download:hover {
     background-color: #71c0d4;
+    cursor: pointer;
   }
   .download span {
     padding-left: 5px;
@@ -724,8 +746,8 @@
     margin-top: 20px;
     border-radius: 29px;
     background: #855fb1;
-    width: 123px;
-    height: 38px;
+    width: 139px;
+    height: 58px;
     padding: 2px;
     border: none;
     color: #fff;
@@ -734,9 +756,11 @@
     font-style: normal;
     font-weight: 900;
     line-height: 26px;
+    margin-top: 20px;
   }
   .info-button:hover {
     background-color: #b18bdd;
+    cursor: pointer;
   }
   .path {
     width: 56px;
@@ -839,8 +863,8 @@
     margin-top: 50px;
     border-radius: 29px;
     background: #855fb1;
-    width: 133px;
-    height: 38px;
+    width: 193px;
+    height: 58px;
     padding: 2px;
     border: none;
     color: #fff;
@@ -853,6 +877,7 @@
 
   .footer-button:hover {
     background-color: #b18bdd;
+    cursor: pointer;
   }
 
   span {
